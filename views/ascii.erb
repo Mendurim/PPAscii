@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Artii</title>
+</head>
+<body>
+
+<form id="text-input-form" action="/make-ascii" method="POST">
+	<label for="text-input">Input your text here:</label>
+	<input type="text" name="user_text" id="text-input">
+	<label for="font-type" id="font-type">Which font would you like?</label>
+	<input type="text" name="text_typo" id="text-input">
+	<input type="submit">
+</form>
+
+<div class="output">
+	<pre class="output-container">
+		<%= @item %>
+		
+	</pre>
+</div>
+	
+</body>
+</html>
